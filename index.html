@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.6.0/marked.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+	<textarea id="editor">
+  # GitHub markdown previewer
+  ## In this editor you can preview text trough the GitHub markdowns
+  #### Don't know how Markdown works? Here is the [Documentation](https://guides.github.com/features/mastering-markdown/)
+  Markdown is a powerful and practical way to style text on the web and with it you can do several things, like:
+  
+  You can do `Inline codes` using backticks, or even
+  
+  ```
+  //Multiline code with triple backticks
+  console.log("Amazing!");
+  console.log("Isn't it?");
+  ```
+  
+  You can make lists like:
+  
+  * Unordered lists
+  1. Or even ordered lists
+  
+And even blockquotes to expose your genius moments:
+  
+  > I never apologize, i'm sorry but that's just the way i am.
+  
+  > -Unknown
+  
+You can include some images as well:
+  
+  ![Markdown logo](https://cdn.guidingtech.com/media/assets/WordPress-Import/2014/01/markdown-logo2-300x201.png)
+  
+And of corse, make your text **bold** and *italic*.
+	</textarea>
+	<div id="preview">
+	</div>
+</body>
+</html>
